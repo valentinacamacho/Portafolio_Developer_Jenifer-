@@ -1,0 +1,125 @@
+:root {
+  --color-tittle: ;
+  --letter-title: ;
+  --color-green:#4D4B4B;
+  --hover:#F06D23;
+}
+
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1000;
+  height: 100%;
+  width: 300px;
+  background: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+
+header .menu-vertical ul li a{
+  display: block;
+  margin: 25px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-vertical ul li{
+  border-bottom:3px solid var(--color-green);
+}
+
+.menu-vertical ul li a:hover{
+  color: var(--hover);
+}
+
+
+.menu-vertical li {
+    list-style: none;
+}
+
+
+.bloque-container{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  top: 20%;
+  left: 50%;
+  transform: translate(0%, 0%);
+  background-color: #1E1E1E;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.bloque{
+  margin:20px;
+}
+
+.texto_page p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.boton button{
+  width: 250px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: var(--hover);
+  border-color: var(--hover);
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.perfil img{
+  width: 60%;
+  height: 60%;
+  border-color: 90px solid var(--hover);
+}
+
+.Redes {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.circulo-redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 10px;
+}
+
+.git{
+  width: 80%;
+  height: 80%;
+}
+
+.link, .twitt{
+  width: 60%;
+  height: 60%;
+}
+
+
+.circulo-redes:hover{
+  color: var(--hover);
+  border-color:var(--hover) ;
+}
+
