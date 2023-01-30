@@ -123,3 +123,32 @@ header .menu-vertical ul li a{
   border-color:var(--hover) ;
 }
 
+/* skills */
+
+.Skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--hover);
+
+}
+
+.circulo-skill{
+  margin: 15px;
+  width: 140px;
+  height: 140px;
+  border-radius: 90%;
+  background-color: #282828;
+}
+
+.icon-skill{
+  margin: 20px;
+  width: 30%;
+  height: 30%;
+  color:var(--hover)
+}
+
+.letra-skill{
+  color: #fff;
+  font-size: 15px;
+}
