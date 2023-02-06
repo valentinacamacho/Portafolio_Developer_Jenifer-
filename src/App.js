@@ -4,6 +4,7 @@ import Sidebar from "./Layout/Sidebar";
 import Principal from "./Pages/Principal";
 import Skills from "./Components/Skills";
 import Cards from "./Components/Cards"
+import Briefcase from "./Components/Briefcase";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route path="/" element={<Principal/>} />
         <Route path="/Cards" element={<Cards/>} />
         <Route path="/Skills" element={<Skills/>} />
-        <Route path="/" element={<Principal/>} />
+        <Route path="/Briefcase" element={<Briefcase/>} />
+     
       </Routes>
 
       {/* <Principal /> */}

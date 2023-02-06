@@ -12,7 +12,7 @@ function Sidebar(){
           <li><Link to="/Cards">sobre mi</Link></li>
           <li><Link to="#">mis servicios</Link></li>
           <li><Link to="/Skills">habilidades</Link></li>
-          <li><Link to="#">portafolio</Link></li>
+          <li><Link to="/Briefcase">portafolio</Link></li>
           </ul>
         </nav>
       </header>

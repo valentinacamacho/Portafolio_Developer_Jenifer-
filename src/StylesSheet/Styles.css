@@ -125,12 +125,24 @@ header .menu-vertical ul li a{
 
 /* skills */
 
+.Skills-contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:20%;
+  left: 25%;
+
+}
+
 .Skills{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border-color: var(--hover);
-
 }
 
 .circulo-skill{

@@ -7,8 +7,6 @@ import Redes from "../Components/Redes";
 function Principal(props) {
   return (
     <div className="container">
-      <Sidebar />
-
       <main>
         <section>
           <div className="bloque-container">
@@ -24,7 +22,7 @@ function Principal(props) {
                 <Redes/>
            
               <div className="boton">
-                <button>Dowland CV</button>
+               <a href="./pdf" target="_blank"><button>Dowland CV</button></a>
               </div>
 
             </div>
